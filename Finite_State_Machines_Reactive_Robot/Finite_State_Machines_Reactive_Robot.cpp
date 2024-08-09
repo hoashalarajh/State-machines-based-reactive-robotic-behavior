@@ -5,6 +5,9 @@
 using namespace std;
 
 void printMessage(int input) {
+    // printint the entered input so the user can understand what is the input
+    cout << "The entered input is: " << input << endl;
+    // switching the robot actions accoriding to the input entered by the user
     switch (input) {
     case 1:
         cout << "Hello" << endl;
